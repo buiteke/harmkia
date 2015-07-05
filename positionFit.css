@@ -1,0 +1,48 @@
+.yesno {
+        height: 500px;
+	position:relative;
+}
+ 
+.yesno ul li {
+	list-style:none;
+	float: left;
+	text-align: center;
+	display: block;
+	color: #FFF;
+	background-color: #066;
+	line-height: 300px;
+	font-size: 120%;
+}
+.positionFit {
+	position:absolute;
+	left: 0px;
+	top: 20px;
+}
+.col_1 li {
+	width: 100%;
+	margin: 1%;
+}
+.col_2 li {
+	width: 48%;
+	margin: 1%;
+}
+.col_3 li {
+	width: 31%;
+	margin: 1%;
+}
+.yesno ul li a {
+	color: #FFF;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+	display: block;
+	background-color: #066;
+}
+.yesno div {
+	clear: both;
+	height: 300px;
+	width: 100%;
+}
+.yesno ul li a:hover {
+	background-color: #004747;
+}
